@@ -1,0 +1,6 @@
+.card{
+  border-radius: 10px;
+  max-height:150px;
+  /* border:1px solid */
+  overflow-wrap:unset
+}
