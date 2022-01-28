@@ -1,0 +1,186 @@
+{
+  "configVersion": 1,
+  "timestamp": 1643210093632,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.23e37bf1bc25288f.js",
+        "/manifest.webmanifest",
+        "/polyfills.a7c4ee8b0ec64c5f.js",
+        "/runtime.ee516e046cbdaf74.js",
+        "/styles.419da3b2fc38174d.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/css/bootstrap-grid.css",
+        "/assets/css/bootstrap-grid.css.map",
+        "/assets/css/bootstrap-grid.min.css",
+        "/assets/css/bootstrap-grid.min.css.map",
+        "/assets/css/bootstrap-grid.rtl.css",
+        "/assets/css/bootstrap-grid.rtl.css.map",
+        "/assets/css/bootstrap-grid.rtl.min.css",
+        "/assets/css/bootstrap-grid.rtl.min.css.map",
+        "/assets/css/bootstrap-reboot.css",
+        "/assets/css/bootstrap-reboot.css.map",
+        "/assets/css/bootstrap-reboot.min.css",
+        "/assets/css/bootstrap-reboot.min.css.map",
+        "/assets/css/bootstrap-reboot.rtl.css",
+        "/assets/css/bootstrap-reboot.rtl.css.map",
+        "/assets/css/bootstrap-reboot.rtl.min.css",
+        "/assets/css/bootstrap-reboot.rtl.min.css.map",
+        "/assets/css/bootstrap-utilities.css",
+        "/assets/css/bootstrap-utilities.css.map",
+        "/assets/css/bootstrap-utilities.min.css",
+        "/assets/css/bootstrap-utilities.min.css.map",
+        "/assets/css/bootstrap-utilities.rtl.css",
+        "/assets/css/bootstrap-utilities.rtl.css.map",
+        "/assets/css/bootstrap-utilities.rtl.min.css",
+        "/assets/css/bootstrap-utilities.rtl.min.css.map",
+        "/assets/css/bootstrap.css",
+        "/assets/css/bootstrap.css.map",
+        "/assets/css/bootstrap.min.css",
+        "/assets/css/bootstrap.min.css.map",
+        "/assets/css/bootstrap.rtl.css",
+        "/assets/css/bootstrap.rtl.css.map",
+        "/assets/css/bootstrap.rtl.min.css",
+        "/assets/css/bootstrap.rtl.min.css.map",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/js/bootstrap.bundle.js",
+        "/assets/js/bootstrap.bundle.js.map",
+        "/assets/js/bootstrap.bundle.min.js",
+        "/assets/js/bootstrap.bundle.min.js.map",
+        "/assets/js/bootstrap.esm.js",
+        "/assets/js/bootstrap.esm.js.map",
+        "/assets/js/bootstrap.esm.min.js",
+        "/assets/js/bootstrap.esm.min.js.map",
+        "/assets/js/bootstrap.js",
+        "/assets/js/bootstrap.js.map",
+        "/assets/js/bootstrap.min.js",
+        "/assets/js/bootstrap.min.js.map",
+        "/assets/logo.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "posts",
+      "patterns": [
+        "https:\\/\\/jsonplaceholder\\.typicode\\.com\\/posts"
+      ],
+      "strategy": "freshness",
+      "maxSize": 5,
+      "maxAge": 21600000,
+      "timeoutMs": 10000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/assets/css/bootstrap-grid.css": "0d4e90d79d8f862d9cf06104ad6336401b1d74af",
+    "/assets/css/bootstrap-grid.css.map": "fd02edd689820bdac671b50289eeb8fd4e6c6aad",
+    "/assets/css/bootstrap-grid.min.css": "21398ccec4defafe860d856bf6aa9c9dccfe74d9",
+    "/assets/css/bootstrap-grid.min.css.map": "7009cee661462ec9694019e71df77d9aad6c4159",
+    "/assets/css/bootstrap-grid.rtl.css": "3011e8d0fed153845ccbaf80159bfc2495cf231b",
+    "/assets/css/bootstrap-grid.rtl.css.map": "3f4859c6d4dd07ce7f7ea5563a3f1c6b782fed48",
+    "/assets/css/bootstrap-grid.rtl.min.css": "d5c7abd320eb4d18aaec98733649816080810e16",
+    "/assets/css/bootstrap-grid.rtl.min.css.map": "4630274d78bddd0c96dd3e4044594248d11b861b",
+    "/assets/css/bootstrap-reboot.css": "b9a6a777b84dc5bb14c06c6584feb74056cedfaf",
+    "/assets/css/bootstrap-reboot.css.map": "51e948ab4404e01dacabf330850dbe5e54c74688",
+    "/assets/css/bootstrap-reboot.min.css": "50576e18c480c0608ffd3af7c372dd8ae11e6df9",
+    "/assets/css/bootstrap-reboot.min.css.map": "7ffaf5a3bc69698d719d615eaf7a46dfb84ab4de",
+    "/assets/css/bootstrap-reboot.rtl.css": "614e8e91425b13ae413fa831b0e73a51bf53c586",
+    "/assets/css/bootstrap-reboot.rtl.css.map": "6570029267e79512f4a615e62c6f167754848047",
+    "/assets/css/bootstrap-reboot.rtl.min.css": "5cbeec6edb929f49c86f91d46fffe934510e8edd",
+    "/assets/css/bootstrap-reboot.rtl.min.css.map": "147b38f125373aed6135ef4b00690164c1960421",
+    "/assets/css/bootstrap-utilities.css": "1e8e505e79d74342af8ec18eefbb2a65a5c4c791",
+    "/assets/css/bootstrap-utilities.css.map": "22209e37727a0897602556e69c6562dc32328014",
+    "/assets/css/bootstrap-utilities.min.css": "20ad2dbf8293a56d38631671dd99c101240e53a9",
+    "/assets/css/bootstrap-utilities.min.css.map": "6685a7a2391104961a03918976e86df6a2e57079",
+    "/assets/css/bootstrap-utilities.rtl.css": "881b33d12f7c8b8a05d25c9d52338f3d22453bcf",
+    "/assets/css/bootstrap-utilities.rtl.css.map": "b1d34a9867514694a6ee328c1b2b00684344a29b",
+    "/assets/css/bootstrap-utilities.rtl.min.css": "dd21c944ddac9c066cfc5fc5b5a31da0ce62a848",
+    "/assets/css/bootstrap-utilities.rtl.min.css.map": "728e4c87d2fd4c496865a75be81de06bd6bb9a77",
+    "/assets/css/bootstrap.css": "9101c67e9136333b3efc24b4359550a7b6d333f2",
+    "/assets/css/bootstrap.css.map": "fa4c4af36bc5fb33f9ea13841526df3d79547da4",
+    "/assets/css/bootstrap.min.css": "7c1c9e0573e5cea8bad3733be2fc63aa8c68ea8d",
+    "/assets/css/bootstrap.min.css.map": "d8cfd4e2959a3c6a1c0038f4864615544a39b5cf",
+    "/assets/css/bootstrap.rtl.css": "4db8d3ba64f412248dac913f92dcd0b1b0e3203e",
+    "/assets/css/bootstrap.rtl.css.map": "250e2c47323f5231b36a2dbe3ae0be54d66f93a8",
+    "/assets/css/bootstrap.rtl.min.css": "e25b0370b23f90f670f0caf51340d133022a5a40",
+    "/assets/css/bootstrap.rtl.min.css.map": "7cf305a0e5283df79294199928da9a3670b834dc",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/js/bootstrap.bundle.js": "39f80aad1598604e626dc5a92d7774f248ffc9dc",
+    "/assets/js/bootstrap.bundle.js.map": "990387a5d31cd20de56de11d1d1886c01bca5761",
+    "/assets/js/bootstrap.bundle.min.js": "901169527507ff9e662cf64d8e361f359308970d",
+    "/assets/js/bootstrap.bundle.min.js.map": "45fe929bd874ca85ae60ebd44c2c6b37df7f6ac4",
+    "/assets/js/bootstrap.esm.js": "016ea56040161cdb31fc7c318f85e055104bdc25",
+    "/assets/js/bootstrap.esm.js.map": "3181c37211313b6965ed9f5b390490e95b66434e",
+    "/assets/js/bootstrap.esm.min.js": "82e22ca0a38aa935b946954896c87eb0145ed507",
+    "/assets/js/bootstrap.esm.min.js.map": "d32ae5305d860c05d02224c77452e0e6d91e4823",
+    "/assets/js/bootstrap.js": "a345cb79acfffe97e04b4bc499d1bc2f52eda36e",
+    "/assets/js/bootstrap.js.map": "302a52d66ff48f9c2e7999133a00539b3fb227d0",
+    "/assets/js/bootstrap.min.js": "3f094f010bfb0c022a51b62778d4361d1cad3fd6",
+    "/assets/js/bootstrap.min.js.map": "9c874ec470a0a0979dec5be1c23f4509ac1db0c3",
+    "/assets/logo.png": "17ad2ba43ee304422a56f8a2c3948a707629d424",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "3e21b4582d3e24153364640f6de5e402dcfb165e",
+    "/main.23e37bf1bc25288f.js": "b5937a7be728f30bdfccf667cbac0f8215a26797",
+    "/manifest.webmanifest": "0b338b06401fe612a436ae08921bac56cf450e9b",
+    "/polyfills.a7c4ee8b0ec64c5f.js": "92f33b3dc32296cea4bd43cb7d638209d7de44ef",
+    "/runtime.ee516e046cbdaf74.js": "9a8ab8497fad876243855b25a29a6a84d307061a",
+    "/styles.419da3b2fc38174d.css": "e4febd990758bd4ac7191bf47f8d3e93db90d75e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
