@@ -9,7 +9,6 @@ import { Post } from '../interface/post';
 export class PostService {
 
 
-
   constructor(private http: HttpClient) { }
 
   getPosts(): Observable<Post[]> {
