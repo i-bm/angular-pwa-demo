@@ -29,6 +29,7 @@ body{
 
 .card{
   transition: 200ms linear;
+ 
 }
 .card:hover{
   transform: scale(0.98);
