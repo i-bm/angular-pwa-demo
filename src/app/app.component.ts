@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PostService } from './service/post.service';
+import { RoomService } from './service/room.service';
 
 @Component({
   selector: 'app-root',
@@ -9,19 +10,21 @@ import { PostService } from './service/post.service';
 export class AppComponent implements OnInit {
   title = 'angular-pwa-demo';
   postData: any;
+  roomData: any;
 
-  constructor(private postService: PostService) { }
+
+  constructor(private roomService: RoomService) { }
   ngOnInit(): void {
-    this.onGetPosts();
+    this.onGetRooms();
   }
 
-  onGetPosts(): void {
-    // this.postService.getPosts().subscribe(
-    //   (response) => console.log(response),
-    //   (error: any) => console.log(error),
-    //   () => console.log('Done getting posts!')
-    // );
-    let result = this.postService.getPosts()
-    result.subscribe((data) => this.postData = data)
+  // onGetPosts(): void {
+  //   let result = this.postService.getPosts()
+  //   result.subscribe((data: any) => this.postData = data)
+  // }
+
+  onGetRooms(): void {
+    let result = this.roomService.getRooms();
+    result.subscribe((data: any) => this.roomData = data)
   }
 }

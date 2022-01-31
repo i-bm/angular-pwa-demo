@@ -6,7 +6,7 @@
       </div>
       <div class="col-9">
         <div class="navbar-nav d-flex flex-row  justify-content-between">
-          <a class="nav-link active" aria-current="page" href="#">Post</a>
+          <a class="nav-link active" aria-current="page" href="#">Rooms</a>
           <a class="nav-link" href="#">Features</a>
           <a class="nav-link" href="#">Contact</a>
         </div>
@@ -20,13 +20,37 @@
 <div class="container">
 
   <div class="row">
-    <div *ngFor="let post of postData" class="col-sm-4">
+    <div  *ngFor="let room of roomData" class="col-sm-4">
       <div class="card mt-3  shadow-sm">
         <div class="card-body">
-          <h5 class="card-title">{{post.title}}</h5>
-          <p class="card-text">{{post.body}}</p>
+          <div class="row">
+          <div class="col-sm-1"> 
+            <img width="30" src="https://img.icons8.com/color/48/000000/circled-user-male-skin-type-6--v2.png"/></div>
+          <div class="col-sm-11">
+            <h5> {{room.name}}</h5>
+            <div class="d-flex justify-content-start">
+            <p><span class="loc">Room Location</span><br>
+              <span class="room-loc">{{room.room_location}}</span>
+            </p>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            <p><span class="loc">Room Name</span><br>
+              <span class="room-name">{{room.room_name}}</span>
+            </p>
+          </div>
+
+          <div class="d-flex justify-content-start">
+            <p><span class="loc">Date</span><br>
+              <span class="date">{{room.end_date}}</span>
+            </p>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p><span class="loc">Time</span><br>
+             <span class="time">{{room.start_time}} - {{room.end_time}}</span> 
+            </p>
+          </div>
+            <hr />
+            <h3 class="status">Status &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  <span>Booked</span></h3>
+          </div>
+        </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+  </div>

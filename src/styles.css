@@ -1,4 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&display=swap');
 body{
   background-color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.loc{
+  font-size:.8rem;
+  color:rgba(128, 128, 128, 0.856);
+  font-weight:500
+}
+
+.status {
+  font-size:1.2rem;
+}
+.status span{
+  color:rgb(21, 160, 44);
+  font-size: 1rem;
+  text-align: right;
+}
+
+.room-loc,.room-name,.date,.time{
+  font-weight: 500;
+}
+
+.card{
+  transition: 200ms linear;
+}
+.card:hover{
+  transform: scale(0.98);
 }
